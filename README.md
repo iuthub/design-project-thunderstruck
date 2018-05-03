@@ -1,6 +1,6 @@
 # Team Thunderstruck
-# Team leader > U1610041
-## Internet Programming: Design Project Assignment
+## Team leader > U1610041
+### Internet Programming: Design Project Assignment
 
 ---
 
