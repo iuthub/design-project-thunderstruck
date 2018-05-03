@@ -1,0 +1,63 @@
+ @media only screen and (max-width:1200px ){
+ 	header h1{
+ 		font-size: 3.7em;
+ 	}
+ 	.email{
+		overflow: hidden;
+		white-space: nowrap;
+		text-overflow: ellipsis;
+	}
+ }
+
+ @media only screen and (max-width:992px){
+ 	.starter h1{
+ 		font-size: 3em;
+ 	}
+ 	.text_info p{
+ 		display: -webkit-box;
+ 	 -webkit-line-clamp: 8;
+ 	 -webkit-box-orient: vertical;
+ 	 overflow: hidden;
+ 	}
+ 	.text_info h1{
+ 		font-size: 2.25em;
+ 	}
+ 	.text_info{
+ 		margin-top: 0;
+ 	}
+ 	.events .text_info h3{
+ 		 overflow: hidden;
+ 		 white-space: nowrap;
+		text-overflow: ellipsis
+ 	}
+ 	.first_page .info{
+		margin-top: 28%;
+		}
+ 	.brand{
+	font-size: 3em;
+	}
+ }
+@media only screen and (max-width:768px){
+	.footer textarea{
+ 		height: 50px;
+ }
+}
+
+@media only screen and (max-width:360px){
+	#headerTop .book{
+	display: none;	
+}
+	.text_about p{
+		 overflow: hidden;
+		display: -webkit-box;
+ 	 -webkit-line-clamp: 10;
+ 	 -webkit-box-orient: vertical; 	
+	}
+	.starter{
+	margin-top: 15%;	
+	}
+	.starter h1{
+		font-size: 3em;
+	}
+}
+
