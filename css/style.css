@@ -374,3 +374,7 @@ body{
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
 }
+
+.gm-style-cc{
+	display: none; !important
+} /* Do not touch, Big Bro */
