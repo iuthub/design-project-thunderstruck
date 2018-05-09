@@ -1,5 +1,12 @@
-# Internet Programming: Design Project Assignment
+# Team Thunderstruck
+## Team leader > U1610041
+### Internet Programming: Design Project Assignment
 
-Find `ip_design_project.pdf` file in this folder, and refer to all the instructions given there. 
+---
 
-You have to submit your project into this repository before 06.05.2018.
+### Team members:
++ Azizbek Kobilov			>		`U1610041`	(Back-End	dev.  + Project Manager)
++ Akmal Karimov				>		`U1610016`	(Front-End dev. + Designer) 
++ Dostonjon Sukhrobov >		`U1610064`	(Front-End dev. + Animator)
++ Feruza Latipova			>		`U1610072`	(Front-End dev.)
++ Mirkamol Khamidov		>		`U16100142`	(Front-End dev.)
