@@ -1,5 +1,5 @@
 # Team Thunderstruck
-## Team leader > U1610041
+### Team leader > U1610041
 ### Internet Programming: Design Project Assignment
 
 ---
@@ -30,5 +30,5 @@
 [**Dr. Sarvar Abdullaev**](s.abdullaev@inha.uz)
 
 ## Content Manager 
-[*Mister Mak*](https://www.instagram.com/ya_mistermak/)
+[**MISTERMAK**](https://www.instagram.com/ya_mistermak/)
 
