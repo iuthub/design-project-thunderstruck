@@ -12,20 +12,17 @@
 + Dostonjon Sukhrobov 	>		`U1610064`	(Front-End dev. + Animator)
 
 ---
-<br />
 
 ## Project Screenshots 
 
 > *Front-End*
 
 ```
-![Screenshots](images/readme1.png "Front-End taken in Sublime Text 3 Editor")  
+![Screenshots](images/readme1.png) 
+
 ```
-<br />
-```
-![Screenshots](images/readme2.png "Front-End taken in Sublime Text 3 Editor")	
-```
-<br />
+![Screenshots](images/readme2.png)
+
 <br />
 
 ### Instructor
