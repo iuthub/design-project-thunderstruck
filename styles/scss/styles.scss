@@ -5,16 +5,6 @@
     padding: 1rem;
 }
 
-#id01{
-	[class*="col-"] {
-    	padding: 0rem;
-    	@include px(15px);
-	}
-	.col-form-label {
-	    padding-top: calc(0.375rem + 1px);
-	    padding-bottom: calc(0.375rem + 1px);
-	}
-}
 // @media (max-width: $sm){
 // 	[class*="col-"] {
 // 		padding: 0.6rem;

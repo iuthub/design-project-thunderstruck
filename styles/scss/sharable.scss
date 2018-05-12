@@ -17,6 +17,16 @@ body {
 	background-size: cover;
 	background-position: center center;
 }
+#id01{
+    [class*="col-"] {
+        padding: 0rem;
+        @include px(15px);
+    }
+    .col-form-label {
+        padding-top: calc(0.375rem + 1px);
+        padding-bottom: calc(0.375rem + 1px);
+    }
+}
 
   /* The Modal (background) */
 .modal {
