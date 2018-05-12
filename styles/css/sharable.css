@@ -1,0 +1,241 @@
+html {
+  -webkit-font-smoothing: antialiased !important;
+  text-size-adjust: 100%; }
+
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  color: #222; }
+
+.image-back-fixed {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; }
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 50;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px; }
+  .modal .searchBtn {
+    color: #222;
+    background-color: #47AF22;
+    color: #222;
+    background-color: #fff;
+    border-color: #47AF22;
+    box-shadow: 1px 2px 8px #85B374; }
+    .modal .searchBtn:hover {
+      color: #fff;
+      background-color: #47AF22;
+      box-shadow: 3px 4px 10px #85B374; }
+  .modal .cancelbtn {
+    box-shadow: 1px 2px 8px #858585; }
+    .modal .cancelbtn:hover {
+      box-shadow: 1px 2px 3px #858585; }
+
+/* Modal Content/Box */
+.modal-content {
+  box-shadow: 1px 2px 5px #222;
+  background-color: #f9f9f9;
+  margin: 5px auto;
+  /* 15% from the top and centered */
+  width: 55%;
+  /* Could be more or less, depending on screen size */ }
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s; }
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0); }
+  to {
+    -webkit-transform: scale(1); } }
+@keyframes animatezoom {
+  from {
+    transform: scale(0); }
+  to {
+    transform: scale(1); } }
+.modal input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box; }
+  .modal input[type=text] label {
+    display: inline-block; }
+
+.navbar {
+  background: #003928;
+  padding: 0 !important; }
+  .navbar button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    cursor: pointer; }
+    .navbar button:hover {
+      color: #47AF22;
+      text-shadow: 3px 5px 5px #2A2525; }
+  .navbar a {
+    font-size: 0.8rem;
+    color: white; }
+    .navbar a:hover {
+      color: #47AF22;
+      text-shadow: 3px 5px 5px #2A2525; }
+  @media (min-width: 370px) {
+    .navbar a, .navbar button {
+      font-size: 1rem; } }
+  @media (min-width: 576px) {
+    .navbar button {
+      font-size: 1.4rem; }
+    .navbar a {
+      font-size: 1.3rem; } }
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1030;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background: #011710 no-repeat fixed center;
+  background-size: cover;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.3s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #d4d2d2;
+  display: block;
+  transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #47AF22; }
+
+.sidenav ul li ul li a {
+  margin-left: 40px;
+  padding: 10px;
+  font-size: 1.1em;
+  display: block; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+.overlay {
+  top: 0px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1029;
+  display: none; }
+
+footer {
+  background-image: url("../../images/foot.png");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center; }
+  footer #foot {
+    margin-top: 6rem;
+    color: #fff;
+    background-color: #47AF22;
+    color: #fff;
+    background-color: rgba(0, 58, 41, 0.74);
+    padding: 20px; }
+  footer .weight {
+    font-weight: 300 !important; }
+  footer a {
+    color: #fafafa; }
+    footer a:hover {
+      color: #47AF22;
+      text-shadow: 3px 5px 5px #2A2525; }
+  footer #contactUS h1 {
+    letter-spacing: 4px;
+    font-size: 1.2rem; }
+  footer h4 {
+    letter-spacing: 3px;
+    font-size: 0.9rem; }
+  footer .contacts, footer .address {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important; }
+  footer .address p {
+    font-size: 0.8rem; }
+  footer .contacts li, footer .contacts li i {
+    white-space: nowrap;
+    font-size: 0.8rem; }
+  footer .footEnd {
+    font-size: 0.7rem; }
+
+@media (min-width: 370px) {
+  footer h4 {
+    font-size: 1rem; }
+  footer .contacts li, footer .contacts li i, footer .address p {
+    font-size: 0.9rem; }
+  footer #links i {
+    font-size: 1.2rem; }
+  footer #weather {
+    font-size: 1rem; }
+  footer .footEnd {
+    font-size: 0.8rem;
+    letter-spacing: 1.5px; } }
+@media (min-width: 768px) {
+  footer h4 {
+    font-size: 1.5rem; }
+  footer .contacts, footer .address {
+    padding-bottom: 7px !important; }
+  footer .contacts li, footer .contacts li i, footer .address p {
+    font-size: 1rem; }
+  footer #links i {
+    font-size: 1.5rem; }
+  footer #weather {
+    font-size: 1.2rem; }
+  footer .footEnd {
+    letter-spacing: 2px; } }
+
+/*# sourceMappingURL=sharable.css.map */

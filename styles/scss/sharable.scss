@@ -1,0 +1,286 @@
+@import 'variables';
+@import 'mixins';
+
+html{
+	-webkit-font-smoothing: antialiased !important;
+	text-size-adjust: 100%;
+}
+body {
+	position: relative;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: #222;
+}
+.image-back-fixed{
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+  /* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 50; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+
+    .searchBtn{
+    	@include setCol(#222, #fff);
+    	border-color: $myGreen;
+    	box-shadow: 1px 2px 8px #85B374;
+    	&:hover{
+    		@include setCol(#fff);
+    		box-shadow: 3px 4px 10px #85B374;
+    	}
+    }
+    .cancelbtn{
+    	box-shadow: 1px 2px 8px #858585;
+    	&:hover{
+    		box-shadow: 1px 2px 3px #858585;
+    	}
+    }
+}
+
+/* Modal Content/Box */
+.modal-content {
+	box-shadow: 1px 2px 5px #222;
+    background-color: #f9f9f9;
+    margin: 5px auto; /* 15% from the top and centered */
+	width: 55%; /* Could be more or less, depending on screen size */
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+.modal input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    label{
+      display: inline-block;
+    }
+}
+
+// ******************** ******************** ******************** 
+// ******************** NAVBAR ******************** 
+// ******************** ******************** ******************** 
+.navbar {
+    background: rgb(0, 57, 40);
+    padding: 0 !important;
+
+    button {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 0.9rem;
+        cursor: pointer;
+        &:hover {
+            color: $myGreen;
+            text-shadow: 3px 5px 5px #2A2525;
+        }
+    }
+
+    a {
+        font-size: 0.8rem;
+        color: white;
+        &:hover {
+            color: $myGreen;
+            text-shadow: 3px 5px 5px #2A2525;
+        }
+    }
+
+	@include mQ(370px) {
+        a, button {
+            font-size: 1rem;
+        }
+    }
+    @include mQ($sm) {
+        button {
+            font-size: 1.4rem;
+        }
+        a {
+            font-size: 1.3rem;
+        }
+    }
+}
+// ******************** ******************** ******************** 
+// ******************** SIDE-BAR ******************** 
+// ******************** ******************** ******************** 
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1030; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    // background-color: ; /* Black*/
+    background: #011710 no-repeat fixed center;
+    background-size: cover;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.3s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #d4d2d2;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: $myGreen;
+}
+
+.sidenav ul li ul li a {
+    margin-left: 40px;
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.overlay {
+    top:  0px;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1029;
+    display: none;
+}
+
+// ******************** ******************** ******************** 
+// ******************** FOOTER ******************** 
+// ******************** ******************** ******************** 
+footer{
+	background-image: url("../../images/foot.png");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	#foot{
+		margin-top: 6rem;
+		@include setCol(#fff, rgba(0, 58, 41, 0.74));
+		padding: 20px;
+	}
+	.weight{
+		font-weight: 300 !important;
+	}
+	a{
+		color: #fafafa;
+		&:hover {
+            color: $myGreen;
+			text-shadow: 3px 5px 5px #2A2525;
+        }
+	}
+
+	#contactUS h1{
+		letter-spacing: 4px;
+		font-size: 1.2rem;
+	}
+	h4{
+		letter-spacing: 3px;
+		font-size: 0.9rem;
+	}
+	.contacts, .address{
+		@include py(0px);
+	}	
+	.address p{
+		font-size: 0.8rem;
+	}
+	.contacts li, .contacts li i{
+		white-space: nowrap;
+		font-size: 0.8rem;
+	}
+	.footEnd{
+		font-size: 0.7rem;
+	}
+}
+
+@include mQ(370px) {
+	footer{
+		h4{
+			font-size: 1rem;
+		}
+		.contacts li, .contacts li i, .address p{
+			font-size: 0.9rem;
+		}
+		#links i{
+			font-size: 1.2rem;
+		}
+		#weather{
+			font-size: 	1rem;
+		}
+		.footEnd{
+			font-size: 0.8rem;
+			letter-spacing: 1.5px;
+		}
+	}
+}
+
+@include mQ($md) {
+	footer{
+		h4{
+			font-size: 1.5rem;
+		}
+		.contacts, .address{
+			padding-bottom: 7px !important;
+		}	
+		.contacts li, .contacts li i, .address p{
+			font-size: 1rem;
+		}
+		#links i{
+			font-size: 1.5rem;
+		}
+		#weather{
+			font-size: 	1.2rem;
+		}
+	
+		.footEnd{
+				letter-spacing: 2px;
+			}
+	}
+}
