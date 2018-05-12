@@ -15,17 +15,20 @@
 
 ## Project Screenshots 
 
-> *Front-End*
+> Sublime Text 3 (Ayu Color Scheme Used)
 
 ```
-![Screenshots](images/readme1.png) 
-
+ Front-End
 ```
-![Screenshots](images/readme2.png)
-
+![Screenshot1](images/readme1.png)
+<br />
+![screenshot2](images/readme2.png)
 <br />
 
-### Instructor
+## Instructor
 
 [**Dr. Sarvar Abdullaev**](s.abdullaev@inha.uz)
+
+## Content Manager 
+[*Mister Mak*](https://www.instagram.com/ya_mistermak/)
 
