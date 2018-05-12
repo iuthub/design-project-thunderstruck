@@ -66,6 +66,11 @@ body {
     margin: 5px auto; /* 5% from the top and centered */
 	width: 55%; /* Could be more or less, depending on screen size */
 }
+@include mQ($lg) {
+    .modal-content{
+        width: 40%;
+    }
+}
 
 /* Add Zoom Animation */
 .animate {

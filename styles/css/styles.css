@@ -1,14 +1,6 @@
 [class*="col-"] {
   padding: 1rem; }
 
-#id01 [class*="col-"] {
-  padding: 0rem;
-  padding-right: 15px !important;
-  padding-left: 15px !important; }
-#id01 .col-form-label {
-  padding-top: calc(0.375rem + 1px);
-  padding-bottom: calc(0.375rem + 1px); }
-
 #header {
   text-shadow: 0px 0px 1px #333; }
   #header h2 {

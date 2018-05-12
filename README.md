@@ -15,7 +15,7 @@
 
 ## Project Screenshots 
 
-> Sublime Text 3 (Ayu Color Scheme Used)
+> Sublime Text 3 Editor is used..
 
 ```
  Front-End

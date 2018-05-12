@@ -14,6 +14,14 @@ body {
   background-size: cover;
   background-position: center center; }
 
+#id01 [class*="col-"] {
+  padding: 0rem;
+  padding-right: 15px !important;
+  padding-left: 15px !important; }
+#id01 .col-form-label {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px); }
+
 /* The Modal (background) */
 .modal {
   display: none;
@@ -56,10 +64,13 @@ body {
   box-shadow: 1px 2px 5px #222;
   background-color: #f9f9f9;
   margin: 5px auto;
-  /* 15% from the top and centered */
+  /* 5% from the top and centered */
   width: 55%;
   /* Could be more or less, depending on screen size */ }
 
+@media (min-width: 992px) {
+  .modal-content {
+    width: 40%; } }
 /* Add Zoom Animation */
 .animate {
   -webkit-animation: animatezoom 0.6s;
