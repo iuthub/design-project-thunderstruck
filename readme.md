@@ -1,6 +1,7 @@
 # Team Thunderstruck
 ### Team leader > U1610041
 ### Internet Programming: Design Project Assignment
+### http://www.hotelaurora.cf
 
 ---
 
@@ -10,3 +11,4 @@
 + Mirkamol Khamidov		>		`U1610142`	(Front-End dev. + Motivator)
 + Feruza Latipova		>		`U1610072`	(Front-End dev. + Chatterbox)
 + Dostonjon Sukhrobov 	>		`U1610064`	(Front-End dev. + Animator)
+
