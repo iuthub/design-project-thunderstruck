@@ -12,3 +12,8 @@
 + Feruza Latipova		>		`U1610072`	(Front-End dev. + Chatterbox)
 + Dostonjon Sukhrobov 	>		`U1610064`	(Front-End dev. + Animator)
 
+
+We can't upload photos on hosting, because symlink() function is disabled :(
+
+But we can show that it is working. 
+P.S. All photos on the website is uploaded from admin page.
