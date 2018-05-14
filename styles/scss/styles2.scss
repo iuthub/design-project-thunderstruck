@@ -1,0 +1,60 @@
+@import 'variables';
+@import 'mixins';
+
+footer [class*="col-"] {
+  padding: 1rem; }
+
+// .blur {
+//   text-shadow: 0 0 2px #fff; }
+
+article{
+	text-shadow: 0px 0px 4px #92CA7A;	
+	#anketaBack{
+		#anketa{
+			white-space: nowrap;
+			label{
+				letter-spacing: 2px;
+				font-weight: 500;
+				text-shadow: 0px 0px 10px #92CA7A;
+			}
+		}
+	}
+
+	#roomBack{
+		box-shadow: 0px 3px 10px #81AD71;
+		@include setCol(#fff, $darkGrass);
+		#room{
+			padding: 1.5rem;
+		}
+		.ssHeadText{
+			letter-spacing: 1.5px;
+			text-shadow: 0px 0px 1px #999;
+		}
+		.ssText{
+			// text-overflow: ellipsis;
+			overflow: hidden;
+			-webkit-line-clamp: 2;
+			display: -webkit-box;
+			-webkit-box-orient: vertical;
+			text-shadow: 0px 0px 1px #999;
+		}
+		hr{
+			height: 1px;
+			background-color: #fff;
+		}
+		.ssPrice{
+			font-size: 1.6rem;
+		}
+	}
+
+	a.btn{
+		@include setCol(#fff);
+		font-size: 1.6rem;
+		border: none !important;
+		box-shadow: 2px 3px 10px #85B374;
+		&:hover{
+			@include setCol($myGreen, #fff);
+		}
+	}
+	
+}

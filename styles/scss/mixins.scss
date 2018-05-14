@@ -1,0 +1,35 @@
+@mixin mQ($arg){
+	@media (min-width: $arg){
+		@content;
+	}
+	// sm>576, md>768, lg>992, el>1200
+}
+
+@mixin setCol($c...){
+	color: nth($c,1);
+	background-color: $myGreen;
+	@if length($c)==2{
+		color: nth($c,1);
+		background-color: nth($c,2);
+	}
+}
+
+@mixin px($rl){
+	padding-right: $rl !important;
+	padding-left: $rl !important;
+}
+
+@mixin py($bt){
+	padding-top: $bt !important;
+	padding-bottom: $bt !important;
+}
+
+@mixin mx($rl){
+	margin-right: $rl !important;
+	margin-left: $rl !important;
+}
+
+@mixin my($bt){
+	margin-top: $bt !important;
+	margin-bottom: $bt !important;
+}
